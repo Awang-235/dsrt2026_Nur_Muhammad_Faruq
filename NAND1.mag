@@ -1,0 +1,80 @@
+magic
+tech sky130A
+magscale 1 2
+timestamp 1783235844
+<< nwell >>
+rect 882 -496 2054 356
+<< pwell >>
+rect 880 -2326 2068 -1332
+<< psubdiff >>
+rect 1842 -2270 1950 -2200
+<< nsubdiff >>
+rect 1400 -114 1490 18
+<< metal1 >>
+rect 402 1094 2458 1406
+rect 408 138 768 1094
+rect 1356 846 1558 850
+rect 1356 646 1560 846
+rect 1062 174 1128 230
+rect 1356 140 1558 646
+rect 1816 170 1882 226
+rect 408 90 1062 138
+rect -2 78 1062 90
+rect -8 -86 1062 78
+rect -8 -1546 198 -86
+rect 408 -268 1062 -86
+rect 1120 136 1558 140
+rect 1120 -266 1818 136
+rect 2126 124 2458 1094
+rect 408 -374 768 -268
+rect 1356 -270 1818 -266
+rect 1866 -268 2458 124
+rect 1356 -306 1558 -270
+rect 1060 -530 1122 -310
+rect 330 -734 1122 -530
+rect 1400 -536 1600 -534
+rect 1820 -536 1874 -314
+rect 2126 -380 2458 -268
+rect 1400 -730 1874 -536
+rect 1400 -734 1600 -730
+rect 1060 -1490 1122 -734
+rect 1820 -1510 1874 -730
+rect -8 -1732 1062 -1546
+rect 1870 -1552 2300 -1550
+rect 18 -1734 1062 -1732
+rect 1120 -1738 1818 -1552
+rect 1870 -1750 2320 -1552
+rect 1066 -1828 1128 -1772
+rect 1814 -1838 1874 -1786
+rect 2142 -2126 2320 -1750
+rect 1348 -2130 2336 -2126
+rect 1342 -2322 2336 -2130
+rect 1342 -2330 1542 -2322
+use sky130_fd_pr__pfet_01v8_M3PB37  XM1
+timestamp 1783235844
+transform 1 0 1095 0 1 -67
+box -211 -419 211 419
+use sky130_fd_pr__pfet_01v8_M3PB37  XM2
+timestamp 1783235844
+transform 1 0 1849 0 1 -71
+box -211 -419 211 419
+use sky130_fd_pr__nfet_01v8_LB55D5  XM3
+timestamp 1783235844
+transform 1 0 1097 0 1 -1642
+box -211 -310 211 310
+use sky130_fd_pr__nfet_01v8_LB55D5  XM4
+timestamp 1783235844
+transform 1 0 1847 0 1 -1650
+box -211 -310 211 310
+<< labels >>
+flabel metal1 330 -732 530 -532 0 FreeSans 1600 0 0 0 A
+port 2 nsew
+flabel metal1 1400 -734 1600 -534 0 FreeSans 1600 0 0 0 B
+port 3 nsew
+flabel metal1 1360 646 1560 846 0 FreeSans 1600 0 0 0 VDD
+port 0 nsew
+flabel metal1 1362 1190 1562 1390 0 FreeSans 1600 0 0 0 Z
+port 1 nsew
+flabel metal1 1342 -2330 1542 -2130 0 FreeSans 1600 0 0 0 VSS
+port 4 nsew
+<< end >>
